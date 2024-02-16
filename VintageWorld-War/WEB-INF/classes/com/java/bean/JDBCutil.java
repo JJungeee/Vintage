@@ -5,7 +5,7 @@ import java.sql.*;
 public class JDBCutil {
 	final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 	//final static String JDBC_URL = "jdbc:mysql://localhost:3306/jspdb?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf-8";
-	final static String JDBC_URL = "jdbc:mysql://mysqldb.c7224i2gu6kk.ap-northeast-2.rds.amazonaws.com:3306/VintageBlue?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8";
+	final static String JDBC_URL = "jdbc:mysql://stg-db.c1wacekm4t2b.us-east-1.rds.amazonaws.com:3306/VintageBlue?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8";
 	final static String DBUSER = "admin";
 	final static String DBPASS = "admin1234";
 	
